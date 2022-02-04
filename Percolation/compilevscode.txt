@@ -1,0 +1,13 @@
+$javac -cp .:a.jar:b.jar:c.jar HelloWorld.java
+$java -cp .:a.jar:b.jar:c.jar HelloWorld
+export CLASSPATH="/c/Users/Gobind/Documents/VSCodeProjects/JavaProjects/Libraries/algs4.jar"
+$echo $CLASSPATH
+
+javac -classpath "dir1;dir2;path/to/jar/containing/AnotherClass;...;dirN" MyClass.java //to compile it
+java -classpath ".;dir1;dir2;path/to/jar/containing/AnotherClass;...;dirN" MyClass //to run it
+
+java -classpath ".;dir1;dir2;path/to/jar/containing/AnotherClass;path/to/MyClass/jar...;dirN" MyClass //to run it
+java -classpath ".;dir1;dir2;path/to/jar/containing/AnotherClass;path/to/MyClass/jar...;dirN" package.subpackage.MyClass //to run it
+
+javac -cp ".:/c/Users/Gobind/Documents/VSCodeProjects/JavaProjects/Libraries/algs4.jar" PercolationVisualizer.java
+java -cp ".:/c/Users/Gobind/Documents/VSCodeProjects/JavaProjects/Libraries/algs4.jar" PercolationVisualizer

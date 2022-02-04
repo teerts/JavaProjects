@@ -1,0 +1,16 @@
+{   
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch RandomWord",
+            "request": "launch",
+            "mainClass": "RandomWord",
+            "projectName": "RandomWord_74fb7177",
+            "args": [
+               "heads",
+               "tails", 
+               "^Z^M"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{   
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch PercolationVisualizer",
+            "request": "launch",
+            "mainClass": "PercolationVisualizer",
+            "projectName": "Percolation_b9d9e3c8"
+        },
+        {
+            "type": "java",
+            "name": "Launch PercolationVisualizer",
+            "request": "launch",
+            "mainClass": "PercolationVisualizer",
+            "sourcePaths": [
+                "Percolation"
+            ],
+            "classPaths": [
+                ".",
+                "/c/Users/Gobind/Documents/VSCodeProjects/JavaProjects/Libraries/algs4.jar"
+            ],
+            "projectName": "PercolationVisualizer_74fb7177",
+            "args": [
+                "input20.txt"
+            ]
+        }
+    ]
+}
